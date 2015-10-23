@@ -1,16 +1,16 @@
 {
   "name": "CameraView",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of CameraView.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/CameraView",
+  "description": "Description will be here! ...",
+  "homepage": "https://github.com/buithuyen/CameraView",
   "license": "MIT",
   "authors": {
     "ThuyenBV": "lionking_bt214@yahoo.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/CameraView.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/buithuyen/CameraView.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "7.0"

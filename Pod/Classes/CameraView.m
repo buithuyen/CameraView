@@ -20,7 +20,7 @@
 - (void)setCameraInPosition:(DevicePositon)position {
 #if TARGET_IPHONE_SIMULATOR
     
-    [UIAlertView showWarningWithMessage:@"This device hasn't any Camera" handler:nil];
+// TODO: Alert here
     
 #else
     
@@ -51,9 +51,7 @@
     if ([self.session canAddInput:self.input]) {
         [self.session addInput:self.input];
     } else {
-//        [UIAlertView showWarningWithMessage:@"AddHours would like access the Camera" handler:^(UIAlertView *alertView, NSInteger buttonIndex) {
-//            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
-//        }];
+        // TODO: Alert here
     }
     
     self.imageOutput = [AVCaptureStillImageOutput new];
@@ -78,7 +76,7 @@
 - (void)switchCameraDevice {
 #if TARGET_IPHONE_SIMULATOR
     
-    [UIAlertView showWarningWithMessage:@"This device hasn't any Camera" handler:nil];
+    // TODO: Alert here
     
 #else
     if (!self.session) {
@@ -96,7 +94,7 @@
 - (void)captureImage:(CaptureImage)captureDone {
 #if TARGET_IPHONE_SIMULATOR
     
-    [UIAlertView showWarningWithMessage:@"This device hasn't any Camera" handler:nil];
+    // TODO: Alert here
     
 #else
     AVCaptureConnection *videoConnection = nil;

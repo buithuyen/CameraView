@@ -1,5 +1,5 @@
 PODS:
-  - CameraView (0.1.0)
+  - CameraView (0.0.1)
 
 DEPENDENCIES:
   - CameraView (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CameraView: 624383e6087c26332488acf24a2b51b92ac1b4c8
+  CameraView: 9ace55dd966969b877fd2ffc3b95281b785666ff
 
 COCOAPODS: 0.39.0
