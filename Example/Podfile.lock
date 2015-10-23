@@ -1,0 +1,14 @@
+PODS:
+  - CameraView (0.1.0)
+
+DEPENDENCIES:
+  - CameraView (from `../`)
+
+EXTERNAL SOURCES:
+  CameraView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CameraView: 624383e6087c26332488acf24a2b51b92ac1b4c8
+
+COCOAPODS: 0.39.0
